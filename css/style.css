@@ -1,0 +1,44 @@
+/* CSS template based off Patrick & Molly's Code Academy Web Class Spring 2017 */
+
+
+
+/* I'm cutting a major corner here by including h4 with the other heading types and intentionally allowing it to have conflicting instructions regarding the text-align text property.  I should really separate text align or use a .class or #name */
+
+h1, 
+h2, 
+h3,
+h4,
+p{
+  font-family: Veranda;
+  font-weight: normal;
+  text-align: center;
+  background-color: black;
+}
+
+h1{
+  font-size: 50px;
+  color: white;
+}
+
+h2{
+  font-size: 42px;
+  color: white;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 21px;
+  color: gray;
+}
+
+h4{
+  font-size: 20px;
+  color: gray;
+  text-align: right;
+}
+
+p{
+  color: aquamarine;
+  font-size: 16px;
+}
+
