@@ -9,15 +9,18 @@ h2,
 h3,
 h4,
 p{
-  font-family: Veranda;
+  font-family: Verdana;
   font-weight: normal;
   text-align: center;
-  background-color: black;
+  
 }
 
 h1{
   font-size: 50px;
   color: white;
+}
+body{
+  background-color: black;
 }
 
 h2{
@@ -31,10 +34,24 @@ h3{
   color: gray;
 }
 
+a:visited {
+    text-decoration: none;
+}
+
 h4{
   font-size: 20px;
   color: gray;
   text-align: right;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+video{
+    display: block;
+    margin: auto;
 }
 
 p{
